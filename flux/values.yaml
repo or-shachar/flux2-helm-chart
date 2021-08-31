@@ -1,0 +1,16 @@
+controllers:
+  source:
+    image: ghcr.io/fluxcd/source-controller
+    tag: v0.15.4
+
+  notification:
+    image: ghcr.io/fluxcd/notification-controller
+    tag: v0.16.0
+
+  helm:
+    image: ghcr.io/fluxcd/helm-controller
+    tag: v0.11.2
+
+  kustomize:
+    image: ghcr.io/fluxcd/kustomize-controller
+    tag: v0.14.0
